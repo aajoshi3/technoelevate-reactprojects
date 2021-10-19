@@ -27,7 +27,7 @@ import DataFetchingTwo from './Components/DataFetchingOne'
       <button onClick={()=>{
         dispatch('increment')
       }}>Increment</button>
-       {/* <DataFetchingTwo/> */}
+       <DataFetchingTwo/>
     </div>
     </CountProvider>
   );

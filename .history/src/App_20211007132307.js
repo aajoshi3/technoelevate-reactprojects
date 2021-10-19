@@ -1,5 +1,4 @@
 import './App.css';
-import ComponentC from './Components/ComponentC';
 // import route from './Components/Link';
 import DataFetchingTwo from './Components/DataFetchingOne'
 
@@ -17,19 +16,11 @@ import DataFetchingTwo from './Components/DataFetchingOne'
     }
   }
   function App() {
-    const [state, dispatch] = useReducer(reducer, initialState)
  
   return (
-    <CountProvider value={{state:state,dispatch:dispatch}}>
-      
     <div className="App">
-      <ComponentC/>
-      <button onClick={()=>{
-        dispatch('increment')
-      }}>Increment</button>
-       {/* <DataFetchingTwo/> */}
+       <DataFetchingTwo/>
     </div>
-    </CountProvider>
   );
 }
 
