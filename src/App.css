@@ -1,0 +1,62 @@
+p{
+  text-align: left;
+font: normal normal bold 40px/58px Sitka Banner;
+letter-spacing: 0px;
+color: #086288;
+font-size: 26px;
+}
+
+input::placeholder{
+  color:#086288 ;
+}
+.mb-3:focus + .form-label {
+  color: red;
+} 
+
+ 
+
+ Container{
+  color:#086288 ;
+
+ }
+ .btn {
+  background-color: rgb(254, 167, 16); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 14px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  /* margin-top: 50px; */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(225, 193, 65);
+  color: white; /* White text */
+
+}
+.btn1{
+  float: right;
+  background-color: rgb(254, 167, 16); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  border-radius: 4px;
+}
+.FloatingLabel:focus::-webkit-input-label {
+  color: red;
+}
+.form-control:focus {
+  border-color: #086288;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.form-select:focus{
+  border-color: #086288c4;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+
+.Container-FloatingLabel[type='text']:focus{
+  color:red
+}

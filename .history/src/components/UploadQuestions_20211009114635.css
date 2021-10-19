@@ -1,0 +1,33 @@
+.color1{
+    color: red;
+    font-size: 15px;
+    /* overflow: hidden; */
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+}
+.color2{
+    color: red;
+    font-size: 15px;
+}
+.color3{
+    color: red;
+    font-size: 15px;
+}
+.depcolor{
+    color:red;
+    font-size: 15px;
+    
+}
+.diffcolor{
+    color: red;
+    font-size: 15px;
+}
+.cliecolor{
+    color: red;
+    font-size: 15px;
+}
+.techcolor{
+    color: red;
+    font-size: 15px;
+}
